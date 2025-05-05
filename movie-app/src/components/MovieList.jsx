@@ -38,7 +38,7 @@ const MovieList = ({ title, data }) => {
         {data && data.length > 0 &&  // phòng trước hợp data rỗng thì trang không bị trắng
           data.map((item) => (
             <div key={item.id} className='w-[200px] h-[300px] relative group' onClick={() => handleTrailer(item.id)}>
-              <div className="group-hover:scale-130 transition-transform duration-500 ease-in-out cursor-pointer w-full h-full">
+              <div className="group-hover:scale-115 transition-transform duration-500 ease-in-out cursor-pointer w-full h-full">
                 <div className='absolute top-0 left-0 w-full h-full bg-black/40' />
                 <img src={`${import.meta.env.VITE_IMG_URL}${item.backdrop_path}`}
                   alt={item.title}

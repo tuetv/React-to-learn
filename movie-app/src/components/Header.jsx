@@ -14,7 +14,7 @@ const Header = ({ onSearch }) => {
           <a href="/">Movie hihi</a>
         </div>
         <nav className='flex items-center space-x-4'>
-          <a href="/" className="text-2xl text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-yellow-500 to-green-500">
+          <a href="/" className="text-2xl text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-yellow-500 to-green-500 hover:scale-110 ease-in-out duration-500">
             Home
           </a>
           <a href="/" className='text-white text-2xl'>About</a>
